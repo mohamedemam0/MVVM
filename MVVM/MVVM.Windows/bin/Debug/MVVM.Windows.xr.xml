@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Gender" />
+    <RootPropertyPathName Name="ParameterCommand" />
+    <RootPropertyPathName Name="SimpleCommand" />
+    <RootPropertyPathName Name="FullName" />
+    <RootPropertyPathName Name="LastName" />
+    <RootPropertyPathName Name="FirstName" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="MVVM.Models.Person" />
+    <RootType FullName="MVVM.ViewModels.ViewModelBase" />
+    <RootType FullName="MVVM.ViewModels.Converters.BackgroundConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Converter" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Path" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="SelectedValue" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="MVVM.MainPage" />
+  </Roots.RootTypes>
+</Roots>

@@ -1,0 +1,1 @@
+E:\STUDIES\Azure and MVVM\MVVM\MVVM\MVVM\MVVM\MVVM.WindowsPhone\MVVM.WindowsPhone.csproj;neutral

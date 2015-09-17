@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="MVVM.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MVVM"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="using:MVVM.Models"
+    xmlns:vm="using:MVVM.ViewModels"
+    xmlns:converter="using:MVVM.ViewModels.Converters"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <m:Person x:Key="person"/>
+        <vm:ViewModelBase x:Key="viewModel"/>
+        <converter:BackgroundConverter x:Key="converter"/>
+    </Page.Resources>
+    
+    <Grid Background="#FF3FF399"
+          DataContext="{Binding Source={StaticResource person}}">
+        
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400">
+            <TextBox Text="{Binding Path=FirstName, Mode=TwoWay}"/>
+            <TextBox Text="{Binding LastName, Mode=TwoWay}"/>
+            <TextBlock Text="{Binding FullName}"
+                       FontSize="20"/>
+            <ComboBox SelectedValue="{Binding Gender, Mode=TwoWay}">
+                <x:String>male</x:String>
+                <x:String>female</x:String>
+            </ComboBox>
+            <Button Content="Simple Command" Command="{Binding SimpleCommand, Source={StaticResource viewModel}}"/>
+            <Button Content="Parameter Command" Command="{Binding ParameterCommand, Source={StaticResource viewModel}}"
+                    CommandParameter="{Binding}"/>
+            <ListView DataContext="{Binding Source={StaticResource viewModel}}"
+                      ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Background="{Binding Gender, Converter={StaticResource converter}}">
+                            <TextBlock Text="{Binding FullName}"
+                                       VerticalAlignment="Center"
+                                       Margin="20"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+        </StackPanel>
+
+    </Grid>
+</Page>
+

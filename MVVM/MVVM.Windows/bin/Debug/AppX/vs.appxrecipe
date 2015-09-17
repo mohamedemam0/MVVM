@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EMAM</Machine>
+    <WindowsUser>Mohammed</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>95e39e01-adcd-4b62-88af-b9f92d863699</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F2912F00CCC01D59E8F3B83722BAE3B796FF8346293EFA9B96D548B60FD63A96</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>95e39e01-adcd-4b62-88af-b9f92d863699_1.0.0.0_neutral__ng8fjaqf7gktm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>95e39e01-adcd-4b62-88af-b9f92d863699_ng8fjaqf7gktm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>95e39e01-adcd-4b62-88af-b9f92d863699</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mohammed</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-22T15:41:39.040</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\MVVM.Windows.exe">
+      <PackagePath>MVVM.Windows.exe</PackagePath>
+      <Modified>2015-04-22T15:49:39.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T16:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T16:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T16:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T16:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-22T15:31:18.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-22T15:49:38.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\MVVM.Windows.xr.xml">
+      <PackagePath>MVVM.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-22T15:49:38.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mohammed\documents\visual studio 2015\Projects\MVVM\MVVM\MVVM.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-22T15:41:38.208</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
